@@ -1,10 +1,10 @@
-def get_prime_factors(N):
+def get_prime_factors(num):
     factors = list()
     divisor = 2
-    while(divisor <= N):
-        if (N % divisor) == 0:
+    while divisor <= num:
+        if (num % divisor) == 0:
             factors.append(divisor)
-            N = N//divisor
+            num = num//divisor
         else:
             divisor += 1
     return factors

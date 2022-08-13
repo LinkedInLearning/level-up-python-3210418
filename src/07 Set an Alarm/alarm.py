@@ -1,14 +1,16 @@
 import sched
 import time
-import os
 
-def set_alarm(alarm_time, wav_file, message):
+def countdown(end_time, message):
     s = sched.scheduler(time.time, time.sleep)
-    s.enterabs(alarm_time, 1, print, argument=(message,))
-    s.enterabs(alarm_time, 1, os.system, argument=(f'mpg123 {wav_file}',))
-    print('Alarm set for', time.asctime(time.localtime(alarm_time)))
+    s.enterabs(end_time - 3, 1, print, argument=('3...',))
+    s.enterabs(end_time - 2, 1, print, argument=('2...',))
+    s.enterabs(end_time - 1, 1, print, argument=('1...',))
+    s.enterabs(end_time, 1, print, argument=(message,))
+    print('Alarm set for', time.asctime(time.localtime(end_time)))
     s.run()
+
 
 # commands used in solution video for reference
 if __name__ == '__main__':
-    set_alarm(time.time()+1, 'alarm.wav', 'Wake up!')
+    countdown(time.time()+5, 'Blast Off!')

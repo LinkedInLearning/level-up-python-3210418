@@ -8,9 +8,4 @@ def roll_dice(*dice, num_trials=1_000_000):
 
     print('\nOUTCOME\tPROBABILITY')
     for outcome in range(len(dice), sum(dice)+1):
-        print('{}\t{:0.2f}%'.format(outcome, counts[outcome]*100/num_trials))
-
-# commands used in solution video for reference
-if __name__ == '__main__':
-    roll_dice(4, 6, 6)
-    roll_dice(4, 6, 6, 20)
+        print(f'{outcome}\t{counts[outcome]*100/num_trials:0.2f}%')

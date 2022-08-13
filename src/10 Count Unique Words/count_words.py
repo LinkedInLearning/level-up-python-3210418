@@ -1,6 +1,7 @@
 import re
 import collections
 
+
 def count_words(path):
     with open(path, 'r', encoding='utf-8') as file:
         all_words = re.findall(r"[0-9a-zA-Z-']+", file.read())
@@ -11,4 +12,4 @@ def count_words(path):
 
         print('\nTop 20 Words:')
         for word in word_counts.most_common(20):
-            print(word[0], '\t', word[1])
+            print(f'{word[0]}\t{word[1]}')

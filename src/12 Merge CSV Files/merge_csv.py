@@ -17,5 +17,3 @@ def merge_csv(csv_list, output_path):
                 reader = csv.DictReader(input_csv)
                 for row in reader:
                     writer.writerow(row)
-
-

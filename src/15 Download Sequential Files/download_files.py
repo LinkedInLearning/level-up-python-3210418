@@ -22,6 +22,7 @@ def download_files(first_url, output_dir):
             print('Could not retrieve {}'.format(next_url))
             error_count += 1
         index_count += 1        
-    
-if __name__ == '__main__':  # commands from explanation video
-    download_files('http://699340.youcanlearnit.net/image001.jpg', '.\\images')
+
+# commands used in solution video for reference
+if __name__ == '__main__':
+    download_files('http://699340.youcanlearnit.net/image001.jpg', 'images')

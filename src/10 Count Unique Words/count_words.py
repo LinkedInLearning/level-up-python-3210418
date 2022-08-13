@@ -13,5 +13,6 @@ def count_words(path):
         for word in word_counts.most_common(20):
             print(word[0], '\t', word[1])
 
-if __name__ == '__main__':  # commands from explanation video
+# commands used in solution video for reference
+if __name__ == '__main__':
     count_words('shakespeare.txt')

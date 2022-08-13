@@ -33,8 +33,9 @@ def print_sudoku(puzzle):
             print('', puzzle[row][col], '', end='')
         print()
     print()
-       
-if __name__ == '__main__':  # commands from explanation video
+
+# commands used in solution video for reference
+if __name__ == '__main__':
     puzzle = [[5,3,0,0,7,0,0,0,0],
               [6,0,0,1,9,5,0,0,0],
               [0,9,8,0,0,0,0,6,0],
@@ -46,8 +47,4 @@ if __name__ == '__main__':  # commands from explanation video
               [0,0,0,0,8,0,0,7,9]]
     print_sudoku(puzzle)
     solution = solve_sudoku(puzzle)
-    print(solution)
-    
     print_sudoku(solution)
-    
-    solve_sudoku(puzzle)

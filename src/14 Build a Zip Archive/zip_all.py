@@ -10,6 +10,7 @@ def zip_all(search_dir, extension_list, output_path):
                 if ext.lower() in extension_list:
                     output_zip.write(os.path.join(root, file),
                                      arcname=os.path.join(rel_path, file))
-                    
-if __name__ == '__main__':  # commands from explanation video
+
+# commands used in solution video for reference
+if __name__ == '__main__':
     zip_all('.\\my_stuff', ['.jpg','.txt'], 'my_stuff.zip')

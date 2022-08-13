@@ -19,5 +19,6 @@ def waiting_game():
     else:
         print('({0:.3f} seconds too slow)'.format(elapsed - target))
 
-if __name__ == '__main__':  # commands from explanation video
+# commands used in solution video for reference
+if __name__ == '__main__':
     waiting_game()

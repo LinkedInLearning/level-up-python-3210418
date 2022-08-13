@@ -7,7 +7,8 @@ def generate_passphrase(num_words):
 
     words = [secrets.choice(word_list) for i in range(num_words)]
     return ' '.join(words)
-    
-if __name__ == '__main__':  # commands from explanation video
+
+# commands used in solution video for reference
+if __name__ == '__main__':
     print(generate_passphrase(7))
     print(generate_passphrase(7))

@@ -5,6 +5,7 @@ def is_palindrome(phrase):
     backwards = forwards[::-1]
     return forwards == backwards
 
-if __name__ == '__main__': # commands from explanation video
-    print(is_palindrome('hello world'))
-    print(is_palindrome("Go hang a salami, I'm a lasagna hog."))
+# commands used in solution video for reference
+if __name__ == '__main__':
+    print(is_palindrome('hello world'))  # false
+    print(is_palindrome("Go hang a salami, I'm a lasagna hog."))  # true

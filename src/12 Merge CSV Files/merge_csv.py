@@ -18,5 +18,6 @@ def merge_csv(csv_list, output_path):
                 for row in reader:
                     writer.writerow(row)
 
-if __name__ == '__main__':  # commands from explanation video
+# commands used in solution video for reference
+if __name__ == '__main__':
     merge_csv(['class1.csv', 'class2.csv'], 'all_students.csv')

@@ -9,7 +9,6 @@ def get_prime_factors(N):
             divisor += 1
     return factors
 
-
-if __name__ == '__main__':
+if __name__ == '__main__': # commands from explanation video
     print(get_prime_factors(630))
     print(get_prime_factors(13))

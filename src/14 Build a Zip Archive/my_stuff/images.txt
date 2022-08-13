@@ -1,0 +1,10 @@
+bird.png
+chipmunks.jpg
+flowers.jpg
+formations.png
+lizard.jpg
+pelican.jpg
+squirrel.png
+starfish.png
+turtle.png
+waterfall.jpg

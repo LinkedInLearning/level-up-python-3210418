@@ -1,5 +1,5 @@
 def get_prime_factors(number):
-    factors = list()
+    factors = []
     divisor = 2
     while divisor <= number:
         if number % divisor == 0:

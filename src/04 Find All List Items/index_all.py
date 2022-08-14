@@ -1,7 +1,5 @@
-from re import I
-
 def index_all(search_list, item):
-    index_list = list()
+    index_list = []
     for index, value in enumerate(search_list):
         if value == item:
             index_list.append([index])

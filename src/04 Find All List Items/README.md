@@ -6,6 +6,6 @@ NOTE: Since the input argument could be a list of lists, your function should be
 
 ## Example Test Output
 ```console
->>> index_all([[[1, 2, 3], 2, [1, 3]], [1, 2, 3]]
+>>> index_all([[[1, 2, 3], 2, [1, 3]], [1, 2, 3]])
 [[0, 0, 1], [0, 1], [1, 1]]
 ```

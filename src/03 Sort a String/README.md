@@ -4,6 +4,6 @@ Your goal is to implement a function, `sort_words()`, that takes a string contai
 
 ## Example Test Output
 ```console
-$ sort_words('banana ORANGE apple')
+>>> sort_words('banana ORANGE apple')
 'apple banana ORANGE'
 ```

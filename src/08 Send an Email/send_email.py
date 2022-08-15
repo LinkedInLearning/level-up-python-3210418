@@ -9,3 +9,9 @@ def send_email(receiver_email, subject, body):
         server.starttls()
         server.login(SENDER_EMAIL, SENDER_PASSWORD)
         server.sendmail(SENDER_EMAIL, receiver_email, message)
+
+
+# commands used in solution video for reference
+if __name__ == '__main__':
+    # replace receiver email address
+    send_email('RECEIVER@EMAIL.COM', 'Notification', 'Everything is awesome!')

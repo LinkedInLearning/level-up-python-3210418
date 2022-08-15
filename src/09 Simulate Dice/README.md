@@ -1,10 +1,11 @@
-# Python Code Challenges: Simulate Dice
+# Python Code Challenge #9: Simulate Dice
 
 Your goal is to implement a function, `roll_dice()`, that takes a variable number of input arguments representing the number of sides on an arbitrary number of dice, its and its output should print a table of the probability for each possible outcome.
 
 ## Example Test Output
+Rolling one four-sided die and two six-sided dices:
 ```console
-$ roll_dice(4,6,6)
+>>> roll_dice(4,6,6)
 
 OUTCOME PROBABILITY
 3       0.69%

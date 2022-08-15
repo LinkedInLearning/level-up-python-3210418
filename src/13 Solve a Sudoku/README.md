@@ -1,21 +1,21 @@
-# Python Code Challenges: Solve a Sudoku
+# Python Code Challenge #13: Solve a Sudoku
 
-Your goal is to implement a function, `print_sudoku()`, that takes a two-dimensional list of lists representing an unsolved Sudoku puzzle as the input argument and returns a two-dimensional list-of-lists containing the puzzle solution.
+Your goal is to implement a function, `solve_sudoku()`, that takes a two-dimensional list of lists representing an unsolved [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzle as the input argument and returns a 9x9 two-dimensional list-of-lists containing the puzzle solution.
+
+NOTE: Zero is used to represent an empty cell.
 
 ## Example Test Output
-Using the included CSV files with student grades as input:
-
 ```console
-$ puzzle = [[5, 3, 0, 0, 7, 0, 0, 0, 0],
-            [6, 0, 0, 1, 9, 5, 0, 0, 0],
-            [0, 9, 8, 0, 0, 0, 0, 6, 0],
-            [8, 0, 0, 0, 6, 0, 0, 0, 3],
-            [4, 0, 0, 8, 0, 3, 0, 0, 1],
-            [7, 0, 0, 0, 2, 0, 0, 0, 6],
-            [0, 6, 0, 0, 0, 0, 2, 8, 0],
-            [0, 0, 0, 4, 1, 9, 0, 0, 5],
-            [0, 0, 0, 0, 8, 0, 0, 7, 9]]
-$ solve_sudoku(puzzle)
+>>> puzzle = [[5, 3, 0, 0, 7, 0, 0, 0, 0],
+              [6, 0, 0, 1, 9, 5, 0, 0, 0],
+              [0, 9, 8, 0, 0, 0, 0, 6, 0],
+              [8, 0, 0, 0, 6, 0, 0, 0, 3],
+              [4, 0, 0, 8, 0, 3, 0, 0, 1],
+              [7, 0, 0, 0, 2, 0, 0, 0, 6],
+              [0, 6, 0, 0, 0, 0, 2, 8, 0],
+              [0, 0, 0, 4, 1, 9, 0, 0, 5],
+              [0, 0, 0, 0, 8, 0, 0, 7, 9]]
+>>> solve_sudoku(puzzle)
 [[5, 3, 4, 6, 7, 8, 9, 1, 2],
  [6, 7, 2, 1, 9, 5, 3, 4, 8],
  [1, 9, 8, 3, 4, 2, 5, 6, 7],
@@ -25,4 +25,21 @@ $ solve_sudoku(puzzle)
  [9, 6, 1, 5, 3, 7, 2, 8, 4],
  [2, 8, 7, 4, 1, 9, 6, 3, 5],
  [3, 4, 5, 2, 8, 6, 1, 7, 9]]
+```
+
+As a bonus challenge, implement a `print_sudoku()` function to display a 9x9 grid of number Sudoku-style:
+
+```console
+>>> print_sudoku(puzzle)
+ 5  3  *  |  *  7  *  |  *  *  * 
+ 6  *  *  |  1  9  5  |  *  *  * 
+ *  9  8  |  *  *  *  |  *  6  * 
+---------------------------------
+ 8  *  *  |  *  6  *  |  *  *  3 
+ 4  *  *  |  8  *  3  |  *  *  1 
+ 7  *  *  |  *  2  *  |  *  *  6 
+---------------------------------
+ *  6  *  |  *  *  *  |  2  8  * 
+ *  *  *  |  4  1  9  |  *  *  5 
+ *  *  *  |  *  8  *  |  *  7  9  
 ```

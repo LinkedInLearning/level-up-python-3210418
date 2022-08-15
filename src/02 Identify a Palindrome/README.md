@@ -4,8 +4,8 @@ Your goal is to implement a function, `is_palindrome()`, that takes a text strin
 
 ## Example Test Output
 ```console
-$ is_palindrome('hello world')
+>>> is_palindrome('hello world')
 False
-$ is_palindrome('Go hang a salami, I’m a lasagna hog.')
+>>> is_palindrome('Go hang a salami, I’m a lasagna hog.')
 True
 ```

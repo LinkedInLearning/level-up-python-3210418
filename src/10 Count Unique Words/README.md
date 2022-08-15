@@ -1,4 +1,4 @@
-# Python Code Challenges: Count Unique Words
+# Python Code Challenge #10: Count Unique Words
 
 Your goal is to implement a function, `count_words()`, that takes the path to a text file as the input argument and prints the total number of words in the file, as well as the top 20 most frequently used words and how many times each of them occurs.
 
@@ -6,7 +6,7 @@ Your goal is to implement a function, `count_words()`, that takes the path to a 
 Using [The Complete Works of William Shakespeare](https://www.gutenberg.org/cache/epub/100/pg100.txt) as input:
 
 ```console
-$ count_words('shakespeare.txt')
+>>> count_words('shakespeare.txt')
 
 
 Total Words: 976836

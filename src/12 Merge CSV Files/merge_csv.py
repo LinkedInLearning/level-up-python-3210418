@@ -17,3 +17,8 @@ def merge_csv(csv_list, output_path):
                 reader = csv.DictReader(input_csv)
                 for row in reader:
                     writer.writerow(row)
+
+
+# commands used in solution video for reference
+if __name__ == '__main__':
+    merge_csv(['class1.csv', 'class2.csv'], 'all_students.csv')

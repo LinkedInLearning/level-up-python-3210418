@@ -18,3 +18,8 @@ def waiting_game():
         print(f'({target - elapsed :.3f} seconds too fast)')
     else:
         print(f'({elapsed - target :.3f} seconds too slow)')
+
+
+# commands used in solution video for reference
+if __name__ == '__main__':
+    waiting_game()

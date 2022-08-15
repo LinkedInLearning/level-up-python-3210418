@@ -4,6 +4,6 @@ Your goal is to implement a function, `get_prime_factors()`, that takes an integ
 
 ## Example Test Output
 ```console
-$ get_prime_factors(630)
+>>> get_prime_factors(630)
 [2, 3, 3, 5, 7]
 ```

@@ -27,7 +27,7 @@ NOTE: Zero is used to represent an empty cell.
  [3, 4, 5, 2, 8, 6, 1, 7, 9]]
 ```
 
-As a bonus challenge, implement a `print_sudoku()` function to display a 9x9 grid of number Sudoku-style:
+As a bonus challenge, implement a `print_sudoku()` function to display a 9x9 grid of numbers Sudoku-style:
 
 ```console
 >>> print_sudoku(puzzle)

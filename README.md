@@ -12,5 +12,5 @@ Barron Stone
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/barron-stone).
 
 [lil-course-url]: https://www.linkedin.com/learning/level-up-python
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGK_3wgpICZow/learning-public-crop_675_1200/0/1666205807230?e=1667952000&v=beta&t=CurQ3O9Bu-utEKD1vZ9ci9jn6K2V79LKGbuodxsPIiQ
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3210418/3210418-1667864206450-16x9.jpg
 [gcs-video-url]: https://www.linkedin.com/learning/level-up-python/using-github-codespaces-with-this-course
